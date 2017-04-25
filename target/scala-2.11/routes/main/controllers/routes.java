@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/SoxBaseCode/server/user-api/conf/routes
-// @DATE:Thu Apr 20 11:26:47 MDT 2017
+// @SOURCE:/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/conf/routes
+// @DATE:Tue Apr 25 11:04:54 MDT 2017
 
 package controllers;
 
