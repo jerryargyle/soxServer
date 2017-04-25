@@ -1,0 +1,10 @@
+[0m[[31merror[0m] [0m/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/SoxBaseCode/server/user-api/app/controllers/CommentController.java:31: variable comment is already defined in method create()[0m
+[0m[[31merror[0m] [0mString comment = json.findPath("comment").textValue();[0m
+[0m[[31merror[0m] [0m/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/SoxBaseCode/server/user-api/app/controllers/CommentController.java:36: variable rating is already defined in method create()[0m
+[0m[[31merror[0m] [0mint rating = json.findPath("rating").asInt();[0m
+[0m[[31merror[0m] [0m/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/SoxBaseCode/server/user-api/app/controllers/CommentController.java:41: variable userID is already defined in method create()[0m
+[0m[[31merror[0m] [0mint userID = json.findPath("userID").asInt();[0m
+[0m[[31merror[0m] [0m/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/SoxBaseCode/server/user-api/app/controllers/CommentController.java:46: variable resortID is already defined in method create()[0m
+[0m[[31merror[0m] [0mint resortID = json.findPath("resortID").asInt();[0m
+[0m[[31merror[0m] [0m/Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/SoxBaseCode/server/user-api/app/controllers/CommentController.java:51: variable runID is already defined in method create()[0m
+[0m[[31merror[0m] [0mint runID = json.findPath("runID").asInt();[0m
