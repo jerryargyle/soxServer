@@ -1,12 +1,1 @@
-New log file opened at Tue Apr 25 19:08:00 MDT 2017 by 15884@Kyles-MBP-2.lan
-Taking next connection to: 52644
-New client attempting to connect on port: 52645-52644
-  Address = /192.168.224.233:52644
-This client on port 52645 has uuid 011b24b0-0e0b-47bb-a98f-8d65a4024967 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-011b24b0-0e0b-47bb-a98f-8d65a4024967
-Taking next connection to: 52644
-Server socket closed java.net.SocketException: Socket closed
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 15884@Kyles-MBP-2.lan logs at Tue Apr 25 19:08:18 MDT 2017, goodbye.
+New log file opened at Tue Apr 25 19:21:48 MDT 2017 by 15990@Kyles-MBP-2.lan

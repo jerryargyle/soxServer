@@ -7,16 +7,16 @@
 		revision="1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20170425190545"/>
+		date="20170425191257"/>
 	<dependencies>
 		<module organisation="mysql" name="mysql-connector-java">
-			<revision name="5.1.18" status="release" pubdate="20150508045537" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
+			<revision name="5.1.41" status="release" pubdate="20170214132759" resolver="public" artresolver="public" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="90">
 				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
-				<metadata-artifact status="no" details="" size="2412" time="0" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.pom"/>
-				<caller organisation="soxserver" name="soxserver_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="5.1.18" rev-constraint-default="5.1.18" rev-constraint-dynamic="5.1.18" callerrev="1.0-SNAPSHOT"/>
+				<metadata-artifact status="successful" details="" size="1105" time="213" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.41.xml" searched="true" original-local-location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.41.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom"/>
+				<caller organisation="soxserver" name="soxserver_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="5.1.41" rev-constraint-default="5.1.41" rev-constraint-dynamic="5.1.41" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="789885" time="0" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar"/>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="successful" details="" size="992805" time="1033" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.41.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

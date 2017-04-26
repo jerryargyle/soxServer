@@ -4,7 +4,7 @@
 		module="soxserver_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20170425190545"
+		publication="20170425191257"
 	>
 		<description>
 		soxServer
@@ -47,6 +47,6 @@
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.5.10" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.5.10" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.5.10" conf="compile->default(compile)"/>
-		<dependency org="mysql" name="mysql-connector-java" rev="5.1.18" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.41" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
