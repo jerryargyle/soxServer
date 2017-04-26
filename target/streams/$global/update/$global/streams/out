@@ -1,26 +1,26 @@
 [0m[[0minfo[0m] [0mUpdating {file:/Users/kyleottmann/Documents/Westminster%20College/Spring%202017/CMPT%20322%20-%20Software%20Engineering/GIT/soxServer/}root...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: user-api#user-api_2.11;1.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: soxserver#soxserver_2.11;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bee8ab2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e592cbb[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#twirl-api_2.11;1.1.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -54,14 +54,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-enhancer;1.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-enhancer;1.1.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-enhancer;1.1.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-enhancer;1.1.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.2-GA ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.javassist#javassist;3.18.2-GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -72,14 +72,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-server_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-server_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -648,14 +648,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -861,14 +861,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-server_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-netty-server_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-netty-server_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.play#play-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -1047,14 +1047,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.netty#netty-reactive-streams-http;1.0.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->io.netty#netty-transport-native-epoll;4.0.41.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->io.netty#netty-transport-native-epoll;4.0.41.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-logback_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-logback_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-logback_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-logback_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -1088,14 +1088,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->ch.qos.logback#logback-classic;1.1.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->ch.qos.logback#logback-classic;1.1.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-jdbc_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-jdbc_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master(compile)][0m
@@ -1201,14 +1201,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-cache_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-cache_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -1234,14 +1234,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->net.sf.ehcache#ehcache-core;2.6.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->net.sf.ehcache#ehcache-core;2.6.11 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-ws_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-ws_2.11;2.5.10 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-ws_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-ws_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -1464,25 +1464,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.18 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.18 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.18[0m
 [0m[[0mdebug[0m] [0m	found mysql#mysql-connector-java;5.1.18 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -1504,18 +1504,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -1924,10 +1924,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -2059,10 +2059,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.play#play-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -2199,10 +2199,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-buffer;4.0.41.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -2226,10 +2226,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master(compile)][0m
@@ -2303,10 +2303,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->tyrex#tyrex;1.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -2326,10 +2326,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -2498,22 +2498,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -2535,18 +2535,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -2955,10 +2955,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -3090,10 +3090,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.play#play-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -3230,10 +3230,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-buffer;4.0.41.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -3257,10 +3257,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master(compile)][0m
@@ -3334,10 +3334,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->tyrex#tyrex;1.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -3357,10 +3357,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -3529,18 +3529,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.10 {test=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-test_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -4230,21 +4230,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->net.sourceforge.htmlunit#htmlunit;2.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.fluentlenium#fluentlenium-core;0.10.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.fluentlenium#fluentlenium-core;0.10.9 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -4266,18 +4266,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -4686,10 +4686,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -4821,10 +4821,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.play#play-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -4961,10 +4961,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-buffer;4.0.41.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -4988,10 +4988,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master(compile)][0m
@@ -5065,10 +5065,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->tyrex#tyrex;1.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -5088,10 +5088,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -5260,24 +5260,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -5299,18 +5299,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -5719,10 +5719,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -5854,10 +5854,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.play#play-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -5994,10 +5994,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-buffer;4.0.41.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -6021,10 +6021,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master(compile)][0m
@@ -6098,10 +6098,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->tyrex#tyrex;1.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -6121,10 +6121,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -6293,24 +6293,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -6332,18 +6332,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -6752,10 +6752,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -6887,10 +6887,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.10->org.apache.tomcat#tomcat-servlet-api;8.0.33 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.10->com.typesafe.play#play-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -7027,10 +7027,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-buffer;4.0.41.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.41.Final->io.netty#netty-transport;4.0.41.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -7054,10 +7054,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master(compile)][0m
@@ -7131,10 +7131,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->tyrex#tyrex;1.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.10->com.typesafe.play#play-java_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -7154,10 +7154,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->master(compile)][0m
@@ -7326,14 +7326,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.10->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->master(compile)][0m
@@ -7853,22 +7853,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.48.2->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-leg-rc;2.48.2->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-leg-rc;2.48.2->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [docs][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-omnidoc_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-omnidoc_2.11;2.5.10 {docs=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-omnidoc_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-omnidoc_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->com.typesafe.play#play-docs_2.11;2.5.10 [compile->master(compile)][0m
@@ -8532,18 +8532,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->com.typesafe.play#play-docs_2.11;2.5.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->com.typesafe.play#play-docs_2.11;2.5.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
@@ -8589,28 +8589,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
 [0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'fork-run'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for user-api#user-api_2.11;1.0-SNAPSHOT [fork-run][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [fork-run][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#fork-run_2.11;2.5.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#fork-run_2.11;2.5.10 {fork-run=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#fork-run_2.11;2.5.10[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#fork-run_2.11;2.5.10 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#fork-run_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#fork-run_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#fork-run_2.11;2.5.10->com.typesafe.play#fork-run-protocol_2.11;2.5.10 [compile->master(compile)][0m
@@ -9030,7 +9030,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#fork-run_2.11;2.5.10->com.typesafe.sbtrc#actor-client-2-11;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#fork-run_2.11;2.5.10->net.contentobjects.jnotify#jnotify;0.94-play-1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#fork-run_2.11;2.5.10->net.contentobjects.jnotify#jnotify;0.94-play-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies user-api#user-api_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#fork-run_2.11;2.5.10 [fork-run->master][0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
@@ -9212,20 +9212,20 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 70248ms :: artifacts dl 241ms[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT compile produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT runtime produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT test produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT provided produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT optional produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT compile-internal produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT test-internal produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT plugin produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT sources produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT docs produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT pom produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT scala-tool produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for user-api#user-api_2.11;1.0-SNAPSHOT fork-run produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/user-api-user-api_2.11-fork-run.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (70248ms resolve - 241ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7517ms :: artifacts dl 187ms[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT compile produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT runtime produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT test produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT provided produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT optional produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT compile-internal produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT test-internal produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT plugin produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT sources produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT docs produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT pom produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT scala-tool produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT fork-run produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-fork-run.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (7517ms resolve - 187ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

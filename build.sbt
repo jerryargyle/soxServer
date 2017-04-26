@@ -1,4 +1,4 @@
-name := """user-api"""
+name := """soxServer"""
 
 version := "1.0-SNAPSHOT"
 
@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  "mysql" % "mysql-connector-java" % "5.1.18"
+  "mysql" % "mysql-connector-java" % "5.5.45"
 )
 
 fork in run := true

@@ -1,46 +1,12 @@
-New log file opened at Tue Apr 25 11:05:28 MDT 2017 by 14869@kyles-mbp-2.devices.wcslc.net
-Taking next connection to: 61436
-New client attempting to connect on port: 61437-61436
-  Address = /146.86.209.195:61436
-This client on port 61437 has uuid f16fb4e8-37bf-4725-a51f-ef4f038e02ce configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-f16fb4e8-37bf-4725-a51f-ef4f038e02ce
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61436
+New log file opened at Tue Apr 25 19:08:00 MDT 2017 by 15884@Kyles-MBP-2.lan
+Taking next connection to: 52644
+New client attempting to connect on port: 52645-52644
+  Address = /192.168.224.233:52644
+This client on port 52645 has uuid 011b24b0-0e0b-47bb-a98f-8d65a4024967 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-011b24b0-0e0b-47bb-a98f-8d65a4024967
+Taking next connection to: 52644
+Server socket closed java.net.SocketException: Socket closed
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 15884@Kyles-MBP-2.lan logs at Tue Apr 25 19:08:18 MDT 2017, goodbye.

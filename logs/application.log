@@ -764,3 +764,5 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 2017-04-25 18:57:09,972 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-18 - Database [default] connected at jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_d662acfeea555fb
 2017-04-25 18:57:09,988 [INFO] from application in application-akka.actor.default-dispatcher-18 - ApplicationTimer demo: Starting application at 2017-04-26T00:57:09.988Z
 2017-04-25 18:57:10,263 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-18 - Application started (Dev)
+2017-04-25 19:04:52,719 [INFO] from application in play-fork-run-akka.actor.default-dispatcher-30 - ApplicationTimer demo: Stopping application at 2017-04-26T01:04:52.719Z after 463s.
+2017-04-25 19:04:52,725 [INFO] from application in play-fork-run-akka.actor.default-dispatcher-30 - Shutting down connection pool.
