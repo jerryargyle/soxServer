@@ -4,7 +4,7 @@
 		module="user-api_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20170425110454"
+		publication="20170425183258"
 	>
 		<description>
 		user-api
