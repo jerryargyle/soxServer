@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  "mysql" % "mysql-connector-java" % "5.5.45"
+  "mysql" % "mysql-connector-java" % "5.1.41"
 )
 
 fork in run := true
