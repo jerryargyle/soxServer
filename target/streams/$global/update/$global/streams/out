@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for soxserver#soxserver_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@220cd3e1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@697728cf[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -1465,30 +1465,27 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.41 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.41 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.41 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: mysql#mysql-connector-java;5.1.41 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kyleottmann/.ivy2/local/mysql/mysql-connector-java/5.1.41/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for mysql#mysql-connector-java;5.1.41[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kyleottmann/.activator/repository/mysql/mysql-connector-java/5.1.41/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for mysql#mysql-connector-java;5.1.41[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kyleottmann/activator-dist-1.3.12/repository/mysql/mysql-connector-java/5.1.41/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for mysql#mysql-connector-java;5.1.41[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for mysql#mysql-connector-java;5.1.41[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom (5.1.41)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] mysql#mysql-connector-java;5.1.41!mysql-connector-java.pom(pom.original) (213ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kyleottmann/.ivy2/local/mysql/mysql-connector-java/5.1.41/jars/mysql-connector-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kyleottmann/.activator/repository/mysql/mysql-connector-java/5.1.41/jars/mysql-connector-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kyleottmann/activator-dist-1.3.12/repository/mysql/mysql-connector-java/5.1.41/jars/mysql-connector-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar[0m
-[0m[[0mdebug[0m] [0m	found mysql#mysql-connector-java;5.1.41 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.41[0m
+[0m[[0mdebug[0m] [0m	found mysql#mysql-connector-java;5.1.41 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->master][0m
@@ -2518,6 +2515,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->compile][0m
@@ -3549,6 +3558,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->compile][0m
@@ -5280,6 +5301,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->compile][0m
@@ -6313,6 +6346,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->compile][0m
@@ -7346,6 +7391,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.10->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies soxserver#soxserver_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.41 [compile->compile][0m
@@ -9064,12 +9121,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.5.10!play-java-jdbc_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.5.10!play-cache_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.5.10!play-java-ws_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] mysql#mysql-connector-java;5.1.41!mysql-connector-java.jar (1033ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.5.10!play-jdbc-evolutions_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.41!mysql-connector-java.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.11;2.5.10!play_2.11.jar[0m
@@ -9236,7 +9289,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 15977ms :: artifacts dl 1527ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 12361ms :: artifacts dl 261ms[0m
 [0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT compile produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT runtime produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT test produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-test.xml[0m
@@ -9251,5 +9304,5 @@
 [0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT pom produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT scala-tool produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for soxserver#soxserver_2.11;1.0-SNAPSHOT fork-run produced in /Users/kyleottmann/Documents/Westminster College/Spring 2017/CMPT 322 - Software Engineering/GIT/soxServer/target/resolution-cache/reports/soxserver-soxserver_2.11-fork-run.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (15977ms resolve - 1527ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (12361ms resolve - 261ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

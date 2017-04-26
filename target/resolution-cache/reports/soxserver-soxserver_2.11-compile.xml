@@ -7,16 +7,28 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20170425191257"/>
+		date="20170425194428"/>
 	<dependencies>
 		<module organisation="mysql" name="mysql-connector-java">
-			<revision name="5.1.41" status="release" pubdate="20170214132759" resolver="public" artresolver="public" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+			<revision name="5.1.41" status="release" pubdate="20170214132759" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
 				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1105" time="213" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.41.xml" searched="true" original-local-location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.41.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom"/>
+				<metadata-artifact status="no" details="" size="2412" time="0" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.41.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom"/>
 				<caller organisation="soxserver" name="soxserver_2.11" conf="compile" rev="5.1.41" rev-constraint-default="5.1.41" rev-constraint-dynamic="5.1.41" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="mysql-connector-java" type="jar" ext="jar" status="successful" details="" size="992805" time="1033" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.41.jar">
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="992805" time="0" location="/Users/kyleottmann/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.41.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-jdbc-evolutions_2.11">
+			<revision name="2.5.10" status="release" pubdate="20161117193105" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/kyleottmann/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/ivy-2.5.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.10/play-jdbc-evolutions_2.11-2.5.10.pom"/>
+				<caller organisation="soxserver" name="soxserver_2.11" conf="compile" rev="2.5.10" rev-constraint-default="2.5.10" rev-constraint-dynamic="2.5.10" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-jdbc-evolutions_2.11" type="jar" ext="jar" status="no" details="" size="181556" time="0" location="/Users/kyleottmann/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.5.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.10/play-jdbc-evolutions_2.11-2.5.10.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -291,6 +303,7 @@
 			<revision name="2.5.10" status="release" pubdate="20161117192843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2683" time="0" location="/Users/kyleottmann/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/ivy-2.5.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.pom"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc-evolutions_2.11" conf="default, compile, runtime, master" rev="2.5.10" rev-constraint-default="2.5.10" rev-constraint-dynamic="2.5.10" callerrev="2.5.10"/>
 				<caller organisation="com.typesafe.play" name="play-jdbc_2.11" conf="compile, runtime" rev="2.5.10" rev-constraint-default="2.5.10" rev-constraint-dynamic="2.5.10" callerrev="2.5.10"/>
 				<artifacts>
 					<artifact name="play-jdbc-api_2.11" type="jar" ext="jar" status="no" details="" size="6423" time="0" location="/Users/kyleottmann/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.10.jar">
@@ -1313,6 +1326,7 @@
 				<caller organisation="com.typesafe.play" name="play-ws_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.10"/>
 				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.1"/>
 				<caller organisation="com.typesafe.play" name="play-logback_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.10"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc-evolutions_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.10"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.10"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.10"/>
 				<caller organisation="com.typesafe.play" name="play-iteratees_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.10"/>

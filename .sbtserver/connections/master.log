@@ -1,1 +1,10 @@
-New log file opened at Tue Apr 25 19:21:48 MDT 2017 by 15990@Kyles-MBP-2.lan
+New log file opened at Tue Apr 25 19:44:15 MDT 2017 by 16411@Kyles-MBP-2.lan
+Taking next connection to: 53939
+New client attempting to connect on port: 53940-53939
+  Address = /192.168.224.233:53939
+This client on port 53940 has uuid 650db170-449c-486b-80f1-4df540199329 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-650db170-449c-486b-80f1-4df540199329
+Taking next connection to: 53939
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53939
