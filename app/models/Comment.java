@@ -16,6 +16,7 @@ public class Comment {
 	public String comment;
 	public int rating;
 	public int userID;
+	public String username;
 	public int resortID;
 	public int runID;
 	public Timestamp commentTime;
@@ -27,6 +28,7 @@ public class Comment {
 		comment = null;
 		rating = 0;
 		userID = 0;
+		username = null;
 		resortID = 0;
 		runID = 0;
 		commentTime = null;
@@ -76,7 +78,7 @@ public class Comment {
     	    dbconnection = play.db.DB.getConnection("default");
     	    stmt = dbconnection.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY);
     	   
-    		String getCommentSql = "SELECT * FROM comments WHERE resortID = " + "\"" + resortID + "\"" + " ORDER BY commentTime DESC LIMIT 10 ";
+    		String getCommentSql = "SELECT commentID, comment, rating, Comments.userID, username, resortID, runID, commentTime FROM Comments JOIN User WHERE Comments.userID = User.userID AND resortID = " + "\"" + resortID + "\"" + " ORDER BY commentTime DESC LIMIT 10 ";
 
     		ResultSet resultSet = stmt.executeQuery(getCommentSql);
     		
@@ -88,8 +90,9 @@ public class Comment {
                 c.comment = resultSet.getString("comment");
                 c.rating = resultSet.getInt(3);
                 c.userID = resultSet.getInt(4);
-                c.resortID = resultSet.getInt(5);
-                c.runID = resultSet.getInt(6);
+                c.username = resultSet.getString("username");
+                c.resortID = resultSet.getInt(6);
+                c.runID = resultSet.getInt(7);
                 c.commentTime = resultSet.getTimestamp("commentTime");
                 list.add(c);
             }
